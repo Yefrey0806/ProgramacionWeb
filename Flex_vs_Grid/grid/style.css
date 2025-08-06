@@ -1,48 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #container {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(190, 197, 247);
-    display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
-    grid-template-columns: 2fr 2fr 1fr;
-    grid-template-areas: 
-        "header header header"
-        "nav main aside"
-        "footer footer aside";
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(190, 197, 247);
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer aside";
 }
 
-header{
-    grid-area: header;
-    background-color: rgb(60, 4, 105);
-    border: 1px solid black;
+header {
+  grid-area: header;
+  background-color: rgb(60, 4, 105);
+  border: 1px solid black;
 }
 
-nav{
-    grid-area: nav;
-    background-color: rgb(255, 56, 56);
-    border: 1px solid black;
+nav {
+  grid-area: nav;
+  background-color: rgb(255, 56, 56);
+  border: 1px solid black;
 }
 
-main{
-    grid-area: main;
-    background-color: rgb(53, 187, 0);
-    border: 1px solid black;
+main {
+  grid-area: main;
+  background-color: rgb(53, 187, 0);
+  border: 1px solid black;
 }
 
-aside{
-    grid-area: aside;
-    background-color: rgb(191, 0, 216);
-    border: 1px solid black;
+aside {
+  grid-area: aside;
+  background-color: rgb(191, 0, 216);
+  border: 1px solid black;
 }
 
-footer{
-    grid-area: footer;
-    background-color: rgb(232, 248, 0);
-    border: 1px solid black;
+footer {
+  grid-area: footer;
+  background-color: rgb(232, 248, 0);
+  border: 1px solid black;
 }
