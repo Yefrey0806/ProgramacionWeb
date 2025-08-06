@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(196, 233, 255);
+  display: flex;
+}
+
+header {
+  width: 20%;
+  height: 100%;
+  background-color: blue;
+  display: inline-block;
+}
+
+nav {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(255, 115, 0);
+}
+
+main {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(21, 255, 0);
+}
+
+aside {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(255, 0, 234);
+}
+
+footer {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(255, 255, 0);
+}
