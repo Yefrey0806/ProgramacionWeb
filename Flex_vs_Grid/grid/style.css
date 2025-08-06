@@ -46,3 +46,15 @@ footer {
   background-color: rgb(232, 248, 0);
   border: 1px solid black;
 }
+
+@media (max-width: 600px) {
+  #container {
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas:
+      "header header"
+      "nav main"
+      "aside aside"
+      "footer footer";
+  }
+}
