@@ -1,0 +1,35 @@
+.container{
+    background-color: lightgreen;
+}
+
+.fila{
+    background-color: lightseagreen;
+}
+
+.fila2{
+    background-color: lightcoral;
+}
+
+.columna{
+    background-color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.columna2{
+    background-color: lightpink;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.col-6{
+    background-color: lightyellow;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/f5ac3f76-2bf1-441d-99d3-a4eadb066208/resourceGroups/appsvc_windows_eastus/providers/Microsoft.Web/sites/misitioweb",
+    "appService.deploySubpath": "."
+}
