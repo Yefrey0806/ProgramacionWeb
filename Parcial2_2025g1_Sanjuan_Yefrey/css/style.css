@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #517a5d;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+  font-family: Arial Black;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: #a9d5ab;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  background-color: #b1d4b3;
+}
+
+#card-team {
+  background-color: #dfe09a;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#card-services {
+  background-color: #f0f8ff;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#card-team:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#card-services:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #517a5d;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#card-projects {
+  background-color: #f0f8ff;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#card-projects:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
